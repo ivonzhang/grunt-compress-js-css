@@ -1,0 +1,24 @@
+{
+  "name": "grunt",
+  "version": "1.0.0",
+  "description": "利用grunt-cli来压缩js和css文件",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "build": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt",
+    "dyn-base",
+    "min.js",
+    "mim.css"
+  ],
+  "author": "zhangf",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.1.0",
+    "grunt-contrib-uglify": "^2.3.0"
+  }
+}
